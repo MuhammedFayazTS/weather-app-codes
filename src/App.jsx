@@ -61,6 +61,7 @@ Weather App
 </Grid>
 </Grid>
         </Grid>
+{/*            top section ends */}
 
       {/* left section */}
         <Grid item xs={12} md={5}>
