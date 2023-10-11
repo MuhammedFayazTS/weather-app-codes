@@ -9,7 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-// icons
+// icons if needed
 import tempmax from './Assets/Icon/thermometer-warmer.png'
 import tempmin from './Assets/Icon/thermometer-colder.png'
 import feels from './Assets/Icon/thermometer.png'
@@ -26,9 +26,9 @@ import snowIco from './Assets/Icon/snow.png';
 import mistIco from './Assets/Icon/mist.png';
 import hazeIco from './Assets/Icon/haze.png';
 import NA from './Assets/Icon/not-available.png'
-
+// import mui icons
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-
+// custom css
 import './LeftSection.css'
 
 function LeftSection({weatherData}) {
@@ -59,10 +59,6 @@ function LeftSection({weatherData}) {
         //    setIcon(mistIco)
            setIcon('https://images.unsplash.com/photo-1579553947413-0eb573d52526?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80')
           }
-        // else if(iconCode == '50d' || iconCode == '50n'){
-        //     // setIcon(hazeIco);
-        //     setIcon('https://images.unsplash.com/photo-1533757704860-384affeed946?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
-        // }
         else{
            setIcon(NA)
           }
